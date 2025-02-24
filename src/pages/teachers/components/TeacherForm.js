@@ -104,12 +104,12 @@ const TeacherForm = ({ teacher, isEdit }) => {
           <Grid item xs={6} sm={4} md={6} lg={8}>
             <Stack spacing={2}>
               <Select labelId="demo-simple-select-label" defaultValue={teacher.typeSubject} id="demo-simple-select" label="Type Document">
-                <MenuItem value="Teacher">Juliana Pérez Solis</MenuItem>
-                <MenuItem value="Teacher">Luisa Fernández Ortiz Cruz</MenuItem>
-                <MenuItem value="Teacher">Juan Carlos Rodríguez Gómez</MenuItem>
-                <MenuItem value="Teacher">Martín Hernández Torres</MenuItem>
-                <MenuItem value="Teacher">Ana María Gutiérrez López</MenuItem>
-                <MenuItem value="Teacher">Pablo Castro Ramírez</MenuItem>
+                <MenuItem value="Teacher1">Juliana Pérez Solis</MenuItem>
+                <MenuItem value="Teacher2">Luisa Fernández Ortiz Cruz</MenuItem>
+                <MenuItem value="Teacher3">Juan Carlos Rodríguez Gómez</MenuItem>
+                <MenuItem value="Teacher4">Martín Hernández Torres</MenuItem>
+                <MenuItem value="Teacher5">Ana María Gutiérrez López</MenuItem>
+                <MenuItem value="Teacher6">Pablo Castro Ramírez</MenuItem>
               </Select>
             </Stack>
           </Grid>
